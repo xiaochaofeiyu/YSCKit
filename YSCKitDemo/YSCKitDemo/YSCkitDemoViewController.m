@@ -35,6 +35,8 @@ static NSString * const YSCCellDataClass    = @"YSCCellDataClass";
 - (void)initCellDates
 {
     [_cellDataArray addObject:@{YSCCellDataName:@"shadow view", YSCCellDataClass:@"YSCShadowViewController"}];
+    [_cellDataArray addObject:@{YSCCellDataName:@"YSCButton", YSCCellDataClass:@"YSCButtonViewController"}];
+    [_cellDataArray addObject:@{YSCCellDataName:@"YSCSwitch", YSCCellDataClass:@"YSCSwitchViewController"}];
     [_cellDataArray addObject:@{YSCCellDataName:@"hamburgeButton", YSCCellDataClass:@"YSCHamburgeButtonViewController"}];
     [_cellDataArray addObject:@{YSCCellDataName:@"gooeyView", YSCCellDataClass:@"YSCGooeyViewController"}];
     [_cellDataArray addObject:@{YSCCellDataName:@"searchBar", YSCCellDataClass:@"YSCSearchBarViewController"}];

@@ -25,6 +25,11 @@
 		1A46E6631D7834DC00C11542 /* YSCSearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A46E6621D7834DC00C11542 /* YSCSearchBarViewController.m */; };
 		1A46E6681D784A0600C11542 /* searchBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A46E6661D784A0600C11542 /* searchBar@2x.png */; };
 		1A46E6691D784A0600C11542 /* searchBar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A46E6671D784A0600C11542 /* searchBar@3x.png */; };
+		1A51AF6D1D819B2F0002A9BD /* YSCTapButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51AF6C1D819B2F0002A9BD /* YSCTapButton.m */; };
+		1A6319EF1D8FC0D000AE7416 /* YSCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6319EE1D8FC0D000AE7416 /* YSCButton.m */; };
+		1A6319F31D8FC17400AE7416 /* YSCButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6319F21D8FC17400AE7416 /* YSCButtonViewController.m */; };
+		1A6319F71D8FD10300AE7416 /* YSCSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6319F61D8FD10300AE7416 /* YSCSwitch.m */; };
+		1A6319FB1D8FF07C00AE7416 /* YSCSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6319FA1D8FF07C00AE7416 /* YSCSwitchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +84,16 @@
 		1A46E6621D7834DC00C11542 /* YSCSearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCSearchBarViewController.m; sourceTree = "<group>"; };
 		1A46E6661D784A0600C11542 /* searchBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "searchBar@2x.png"; path = "../../YSCKit/YSCSearchBar/searchBar@2x.png"; sourceTree = "<group>"; };
 		1A46E6671D784A0600C11542 /* searchBar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "searchBar@3x.png"; path = "../../YSCKit/YSCSearchBar/searchBar@3x.png"; sourceTree = "<group>"; };
+		1A51AF6B1D819B2F0002A9BD /* YSCTapButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCTapButton.h; sourceTree = "<group>"; };
+		1A51AF6C1D819B2F0002A9BD /* YSCTapButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCTapButton.m; sourceTree = "<group>"; };
+		1A6319ED1D8FC0D000AE7416 /* YSCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCButton.h; sourceTree = "<group>"; };
+		1A6319EE1D8FC0D000AE7416 /* YSCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCButton.m; sourceTree = "<group>"; };
+		1A6319F11D8FC17400AE7416 /* YSCButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCButtonViewController.h; sourceTree = "<group>"; };
+		1A6319F21D8FC17400AE7416 /* YSCButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCButtonViewController.m; sourceTree = "<group>"; };
+		1A6319F51D8FD10300AE7416 /* YSCSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCSwitch.h; sourceTree = "<group>"; };
+		1A6319F61D8FD10300AE7416 /* YSCSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCSwitch.m; sourceTree = "<group>"; };
+		1A6319F91D8FF07C00AE7416 /* YSCSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCSwitchViewController.h; sourceTree = "<group>"; };
+		1A6319FA1D8FF07C00AE7416 /* YSCSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCSwitchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +191,8 @@
 		1A46E6201D76889100C11542 /* YSCKit */ = {
 			isa = PBXGroup;
 			children = (
+				1A6319F41D8FD0CA00AE7416 /* YSCSwitch */,
+				1A6319EC1D8FC0D000AE7416 /* YSCButton */,
 				1A46E6321D768DF500C11542 /* shadowView */,
 				1A46E62D1D7688FE00C11542 /* hamburgeButton */,
 				1A46E6211D76889100C11542 /* gooeyView */,
@@ -257,6 +274,8 @@
 		1A46E65D1D78346400C11542 /* Demo controller */ = {
 			isa = PBXGroup;
 			children = (
+				1A6319F81D8FF03D00AE7416 /* YSCSwitch */,
+				1A6319F01D8FC14300AE7416 /* YSCButton */,
 				1A46E65C1D78345E00C11542 /* searchBar */,
 				1A46E6611D7834DC00C11542 /* YSCSearchBarViewController.h */,
 				1A46E6621D7834DC00C11542 /* YSCSearchBarViewController.m */,
@@ -283,8 +302,46 @@
 		1A46E6741D79858C00C11542 /* YSCTapButton */ = {
 			isa = PBXGroup;
 			children = (
+				1A51AF6B1D819B2F0002A9BD /* YSCTapButton.h */,
+				1A51AF6C1D819B2F0002A9BD /* YSCTapButton.m */,
 			);
 			path = YSCTapButton;
+			sourceTree = "<group>";
+		};
+		1A6319EC1D8FC0D000AE7416 /* YSCButton */ = {
+			isa = PBXGroup;
+			children = (
+				1A6319ED1D8FC0D000AE7416 /* YSCButton.h */,
+				1A6319EE1D8FC0D000AE7416 /* YSCButton.m */,
+			);
+			path = YSCButton;
+			sourceTree = "<group>";
+		};
+		1A6319F01D8FC14300AE7416 /* YSCButton */ = {
+			isa = PBXGroup;
+			children = (
+				1A6319F11D8FC17400AE7416 /* YSCButtonViewController.h */,
+				1A6319F21D8FC17400AE7416 /* YSCButtonViewController.m */,
+			);
+			name = YSCButton;
+			sourceTree = "<group>";
+		};
+		1A6319F41D8FD0CA00AE7416 /* YSCSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				1A6319F51D8FD10300AE7416 /* YSCSwitch.h */,
+				1A6319F61D8FD10300AE7416 /* YSCSwitch.m */,
+			);
+			path = YSCSwitch;
+			sourceTree = "<group>";
+		};
+		1A6319F81D8FF03D00AE7416 /* YSCSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				1A6319F91D8FF07C00AE7416 /* YSCSwitchViewController.h */,
+				1A6319FA1D8FF07C00AE7416 /* YSCSwitchViewController.m */,
+			);
+			name = YSCSwitch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,10 +481,15 @@
 			files = (
 				1A46E6351D76A6C000C11542 /* UIView+YSCShadow.m in Sources */,
 				1A46E5F21D76884500C11542 /* AppDelegate.m in Sources */,
+				1A6319F71D8FD10300AE7416 /* YSCSwitch.m in Sources */,
 				1A46E6571D7829EB00C11542 /* ViewController.m in Sources */,
+				1A6319FB1D8FF07C00AE7416 /* YSCSwitchViewController.m in Sources */,
 				1A46E6301D7688FE00C11542 /* YSCHamburgeButton.m in Sources */,
 				1A46E62A1D76889100C11542 /* YSCGooeyView.m in Sources */,
+				1A51AF6D1D819B2F0002A9BD /* YSCTapButton.m in Sources */,
+				1A6319EF1D8FC0D000AE7416 /* YSCButton.m in Sources */,
 				1A46E62C1D76889100C11542 /* YSCSearchBar.m in Sources */,
+				1A6319F31D8FC17400AE7416 /* YSCButtonViewController.m in Sources */,
 				1A46E5EF1D76884500C11542 /* main.m in Sources */,
 				1A46E6581D7829EB00C11542 /* YSCkitDemoViewController.m in Sources */,
 				1A46E6521D78297200C11542 /* YSCShadowViewController.m in Sources */,
@@ -660,6 +722,7 @@
 				1A46E6191D76884500C11542 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A46E61A1D76884500C11542 /* Build configuration list for PBXNativeTarget "YSCKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -668,6 +731,7 @@
 				1A46E61C1D76884500C11542 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A46E61D1D76884500C11542 /* Build configuration list for PBXNativeTarget "YSCKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -676,6 +740,7 @@
 				1A46E61F1D76884500C11542 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
